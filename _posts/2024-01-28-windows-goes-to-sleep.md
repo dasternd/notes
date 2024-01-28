@@ -1,6 +1,6 @@
 ---
 title: 'FIX: Windows уходит в сон после отключения по RDP'
-date: 2024-01-29 22:30:00 +0300
+date: 2024-01-28 22:30:00 +0300
 description: Решение проблемы с автоматическим уходом в сон Windows 11
 categories: [Windows, Решение]
 tags: [Windows 11, fix]
