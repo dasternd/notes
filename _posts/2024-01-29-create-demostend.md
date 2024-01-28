@@ -1,6 +1,6 @@
 ---
 title: 'Создание тестового стенда'
-date: 2024-01-28 22:30:00 +0300
+date: 2024-01-29 22:30:00 +0300
 description: Автоматизация подготовки тестового стенда на базе Hyper-V с помощью PowerShell
 categories: [PowerShell, Инструкция]
 tags: [Hyper-V, PowerShell]
