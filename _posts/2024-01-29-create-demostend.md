@@ -87,7 +87,7 @@ sysprep /generalize /oobe /shutdown /unattend:c:\autounattend.xml
 ## Логика работы
 
 В автоматическом режиме будет:
-1. созданы все виртуальные машины из списка CSV-файла
+1. созданы все виртуальные машины из списка [CSV-файла](https://github.com/dasternd/scripts/blob/main/DemoStend/DemoStand.csv)
 2. развернут контроллер домена
 3. все виртуальные серверы автоматически включены в домен при условии если это значение было указано в CSV-файле (domain/workgroup)
 
