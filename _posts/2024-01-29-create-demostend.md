@@ -93,7 +93,7 @@ sysprep /generalize /oobe /shutdown /unattend:c:\autounattend.xml
 
 **Пример CSV-файла**
 
-```CSV
+```console
 VM;Role;RAMStart;RAMMin;RAMMax;CPU;Switch;OS;FQDN;IP;Join;Add
 DC;DC;2048;512;4096;2;vPrivate;W2k19;dc-01;192.168.0.1;domain;False
 GTW;gateway;2048;2048;2048;2;vPrivate;W2k19;gtw;192.168.0.10;workgroup;False
