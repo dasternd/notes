@@ -127,6 +127,8 @@ W10-07;client;2048;512;4096;4;vPrivate;w10;w10-07;192.168.0.18;workgroup;True
 логин **Administrator** <br>
 пароль **P@$$w0rd** <br>
 
+## Скрипты
+
 Когда все готово можно запускать скрипты по очереди:
 
 1. [**Add-VM.ps1**](https://github.com/dasternd/scripts/blob/main/DemoStend/Add-VM.ps1) - скрипт для создания всех виртуальных машин из CSV-файла. 
