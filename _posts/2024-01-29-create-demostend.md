@@ -87,7 +87,19 @@ sysprep /generalize /oobe /shutdown /unattend:c:\autounattend.xml
 ## Логика работы
 
 В автоматическом режиме будет:
-1. созданы все виртуальные машины из списка [CSV-файла](https://github.com/dasternd/scripts/blob/main/DemoStend/DemoStand.csv)
+1. созданы все виртуальные машины из списка [CSV-файла](https://github.com/dasternd/scripts/blob/main/DemoStend/DemoStand.csv)<br>
+```CSV
+VM;Role;RAMStart;RAMMin;RAMMax;CPU;Switch;OS;FQDN;IP;Join;Add
+DC;DC;2048;512;4096;2;vPrivate;W2k19;dc-01;192.168.0.1;domain;False
+GTW;gateway;2048;2048;2048;2;vPrivate;W2k19;gtw;192.168.0.10;workgroup;False
+W10-01;client;2048;512;4096;4;vPrivate;w10;w10-01;192.168.0.11;domain;False
+W10-02;client;2048;512;4096;4;vPrivate;w10;w10-02;192.168.0.12;workgroup;Fasle
+CM;ConfigMgr;8196;8196;16392;4;vPrivate;W2k19;cm;192.168.0.2;domain;False
+W10-04;client;2048;512;4096;4;vPrivate;w10;w10-04;192.168.0.15;workgroup;True
+W10-05;client;2048;512;4096;4;vPrivate;w10;w10-05;192.168.0.16;workgroup;True
+W10-06;client;2048;512;4096;4;vPrivate;w10;w10-06;192.168.0.17;workgroup;True
+W10-07;client;2048;512;4096;4;vPrivate;w10;w10-07;192.168.0.18;workgroup;True
+```
 2. развернут контроллер домена
 3. все виртуальные серверы автоматически включены в домен при условии если это значение было указано в CSV-файле (domain/workgroup)
 
