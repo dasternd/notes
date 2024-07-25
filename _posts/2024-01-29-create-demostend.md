@@ -87,7 +87,12 @@ sysprep /generalize /oobe /shutdown /unattend:c:\autounattend.xml
 ## Логика работы
 
 В автоматическом режиме будет:
-1. созданы все виртуальные машины из списка [CSV-файла](https://github.com/dasternd/scripts/blob/main/DemoStend/DemoStand.csv)<br>
+1. созданы все виртуальные машины из списка [CSV-файла](https://github.com/dasternd/scripts/blob/main/DemoStend/DemoStand.csv)
+2. развернут контроллер домена
+3. все виртуальные серверы автоматически включены в домен при условии если это значение было указано в CSV-файле (domain/workgroup)
+
+**Пример CSV-файла**
+
 ```CSV
 VM;Role;RAMStart;RAMMin;RAMMax;CPU;Switch;OS;FQDN;IP;Join;Add
 DC;DC;2048;512;4096;2;vPrivate;W2k19;dc-01;192.168.0.1;domain;False
@@ -100,8 +105,6 @@ W10-05;client;2048;512;4096;4;vPrivate;w10;w10-05;192.168.0.16;workgroup;True
 W10-06;client;2048;512;4096;4;vPrivate;w10;w10-06;192.168.0.17;workgroup;True
 W10-07;client;2048;512;4096;4;vPrivate;w10;w10-07;192.168.0.18;workgroup;True
 ```
-2. развернут контроллер домена
-3. все виртуальные серверы автоматически включены в домен при условии если это значение было указано в CSV-файле (domain/workgroup)
 
 > Поля в CSV-файле означают следующее:<br>
 > **VM** - название виртуальной машнины в Hyper-V<br>
