@@ -1,6 +1,7 @@
 ---
+pin: true
 title: 'Microsoft Exchange Server'
-date: 2024-07-25 22:00:00 +0300
+date: 2024-07-25 17:00:00 +0300
 description: Серия заметок про корпоративный почтовый сервер Microsoft Exchange Server
 categories: [Exchange Server, Статья]
 tags: [Exchange]
