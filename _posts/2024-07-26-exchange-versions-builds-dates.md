@@ -6,7 +6,7 @@ categories: [Exchange Server, Статья]
 tags: [Exchange]
 img_path: /assets/screenshots/exchange-server
 image:
-  path: microsoft-exchange.png
+  path: Exchange-vNext-is-postponed-from-the-originally-planned-2021-to-the-end-of-support-for-Exchange-2016-and-2019.png
   width: 100%
   height: 100%
 ---
