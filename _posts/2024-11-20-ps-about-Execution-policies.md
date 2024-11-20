@@ -1,6 +1,6 @@
 ---
 title: 'FIX: Политика выполнения PowerShell ограничевает выполнения скрипта'
-date: 2024-01-28 22:30:00 +0300
+date: 2024-11-20 18:00:00 +0300
 description: Управление политикой PowerShell для запуска скрипта на локальном компьютере
 categories: [PowerShell, Решение]
 tags: [PowerShell, Windows, fix]
