@@ -1,12 +1,12 @@
 ---
 title: 'FIX: Политика выполнения PowerShell ограничевает выполнения скрипта'
-date: 2024-11-20 18:00:00 +0300
+date: 2024-11-21 09:00:00 +0300
 description: Управление политикой PowerShell для запуска скрипта на локальном компьютере
 categories: [PowerShell, Решение]
 tags: [PowerShell, Windows, fix]
 img_path: /assets/screenshots/ps-about-Execution-policies
 image:
-  path: Get-ExecutionPolicy.jpg
+  path: powershell.jpg
   width: 100%
   height: 100%
 ---
@@ -14,6 +14,9 @@ image:
 ## Проблема
 
 При запуске скрипта на PowerShell появляется сообщение об ошибке
+
+![Desktop View](Get-ExecutionPolicy.jpg){: w="700" h="400" }
+_Системная ошибка "cannot be loaded because running scripts is disabled on this system"_
 
 ```console
 File %anypath%\any_script.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
@@ -84,7 +87,7 @@ _Политика запуска скриптов PowerShell в редактор
 
 Чтобы установить политику выполнения для текущей области пользователя, можно воспользоваться следующим:
 
-```console
+```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
