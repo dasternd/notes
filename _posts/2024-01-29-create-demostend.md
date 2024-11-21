@@ -64,10 +64,10 @@ sysprep /generalize /oobe /shutdown /unattend:c:\autounattend.xml
 
 На хосте гипервизора в каталоге **D:\Hyper-V** создаем новый **Template**, в котором будут размещаться диски с эталонными образами операционных систем со своей системой обозначения:
 
-**w2k16** - Windows Server 2016 Standard <br>
-**w2k19** - Windows Server 2019 Standard <br>
-**w2k22** - Windows Server 2022 Standard <br>
-**w2k22c** - Windows Server 2022 Core <br>
+**ws16** - Windows Server 2016 Standard <br>
+**ws19** - Windows Server 2019 Standard <br>
+**ws22** - Windows Server 2022 Standard <br>
+**ws22c** - Windows Server 2022 Core <br>
 **w7** - Windows 7 Pro <br>
 **w7e** - Windows 7 Enterprise <br>
 **w10** - Windows 10 Pro <br>
@@ -94,11 +94,11 @@ sysprep /generalize /oobe /shutdown /unattend:c:\autounattend.xml
 
 ```console
 VM;Role;RAMStart;RAMMin;RAMMax;CPU;Switch;OS;FQDN;IP;Join;Add
-DC;DC;2048;512;4096;2;vPrivate;W2k19;dc-01;192.168.0.1;domain;False
-GTW;gateway;2048;2048;2048;2;vPrivate;W2k19;gtw;192.168.0.10;workgroup;False
+DC;DC;2048;512;4096;2;vPrivate;WS19;dc-01;192.168.0.1;domain;False
+GTW;gateway;2048;2048;2048;2;vPrivate;WS19;gtw;192.168.0.10;workgroup;False
 W10-01;client;2048;512;4096;4;vPrivate;w10;w10-01;192.168.0.11;domain;False
 W10-02;client;2048;512;4096;4;vPrivate;w10;w10-02;192.168.0.12;workgroup;Fasle
-CM;ConfigMgr;8196;8196;16392;4;vPrivate;W2k19;cm;192.168.0.2;domain;False
+CM;ConfigMgr;8196;8196;16392;4;vPrivate;WS19;cm;192.168.0.2;domain;False
 W10-04;client;2048;512;4096;4;vPrivate;w10;w10-04;192.168.0.15;workgroup;True
 W10-05;client;2048;512;4096;4;vPrivate;w10;w10-05;192.168.0.16;workgroup;True
 W10-06;client;2048;512;4096;4;vPrivate;w10;w10-06;192.168.0.17;workgroup;True
