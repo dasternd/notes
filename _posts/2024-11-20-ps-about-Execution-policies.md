@@ -45,7 +45,7 @@ Restricted
 
 Установить политику выполнения с помощью следующей команды:
 
-```console
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 
@@ -59,7 +59,7 @@ _Установка политики запуска сриптов PowerShell_
 
 Можно использовать
 
-```console
+```powershell
 Set-ExecutionPolicy Unrestricted
 ```
 
@@ -106,7 +106,7 @@ MachinePolicy       Undefined
 
 Можно обойти политику выполнения PowerShell только для одноразового сеанса, в командной строке необходимо ввести:
 
-```console
+```powershell
 PowerShell -ExecutionPolicy Bypass
 ```
 
