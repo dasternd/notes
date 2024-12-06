@@ -26,6 +26,12 @@ image:
 
 | VERSION                 | BUILD        | RELEASE | INFO      | LINK                                                                        |
 | :---------------------- | :----------- | :------ | :-------- | :-------------------------------------------------------------------------- |
+| 2019CU14+KB5049233 (November SU v2)  | 15.2.1544.14 | Nov-24  | KB5049233 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106320) |
+| 2019CU13+KB5049233 (November SU v2)  | 15.2.1258.39 | Nov-24  | KB5049233 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106318) |
+| 2016CU23+KB5049233 (November SU v2)  | 15.1.2507.44 | Nov-24  | KB5049233 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106317) |
+| 2019CU14+KB5044062  | 15.2.1544.13 | Nov-24  | KB5044062 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106320) |
+| 2019CU13+KB5044062  | 15.2.1258.38 | Nov-24  | KB5044062 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106318) |
+| 2016CU23+KB5044062  | 15.1.2507.43 | Nov-24  | KB5044062 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106317) |
 | 2019CU14+KB5037224 HU2  | 15.2.1544.11 | Apr-24  | KB5037224 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106021) |
 | 2019CU13+KB5037224 HU6  | 15.2.1258.34 | Apr-24  | KB5037224 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106022) |
 | 2016CU23+KB5037224 HU13 | 15.1.2507.39 | Apr-24  | KB5037224 | [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106023) |
