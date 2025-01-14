@@ -212,3 +212,18 @@ Kerberos лучше, чем NTLM, потому что:
 | **Кроссплатформенная совместимость** | Кроссплатформенный протокол аутентификации, поддерживаемый различными операционными системами и платформами, включая Windows, Linux и macOS                           | В основном используется в средах на базе Windows и может не так широко поддерживаться на различных платформах                                                                                                                                 |
 | **Чувствительность к времени**       | Не требует интенсивного использования синхронизированного времени                                                                                                     | В значительной степени полагается на синхронизированное время между вовлеченными сторонами. Срок действия билетов имеет отметку времени, что означает, что сетевые часы должны быть синхронизированы, чтобы предотвратить сбои аутентификации |
 | **Простота использования**          | Проще реализовать в небольших, менее сложных сетях                                                                                                                    | Требует тщательной настройки и синхронизации времени по всей сети                                                                                                                                                                             |
+
+
+## Материалы
+
+Статья подготовлена на основе исходных материалов:
+
+- All about Kerberos & NTLM Authentication on Windows Systems (https://medium.com/@araman99/all-about-kerberos-ntlm-authentication-on-windows-systems-42e793afb020)
+- Difference between Kerberos and NTLM (https://www.geeksforgeeks.org/difference-between-kerberos-and-ntlm/)
+- Explain NTLM vs. Kerberos vs. LDAP (https://cyberdefenders.org/cybersecurity-glossary/ntlm-vs-kerberos/)
+- Kerberos Vs NTLM Authentication Protocol (https://www.manageengine.com/products/active-directory-audit/learn/kerberos-vs-ntlm.html)
+- NTLM vs Kerberos (https://techcommunity.microsoft.com/blog/askds/ntlm-vs-kerberos/4120658)
+- NTLM vs. Kerberos: What’s the Difference? (https://rublon.com/blog/ntlm-vs-kerberos/)
+- NTLM vs Kerberos: Understanding Authentication in Windows/Active Directory (https://infosecwriteups.com/ntlm-vs-kerberos-understanding-authentication-in-windows-active-directory-143925d04c75)
+- Аутентификация в системах Windows. Часть 1 - NTLM (https://interface31.ru/tech_it/2015/03/autentifikaciya-v-sistemah-windows-chast-1-ntlm.html)
+- Аутентификация в системах Windows. Часть 2 - Kerberos (https://interface31.ru/tech_it/2016/07/autentifikaciya-v-sistemah-windows-2-kerberos.html)
