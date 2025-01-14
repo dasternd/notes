@@ -1,6 +1,6 @@
 ---
 title: 'FIX: Запуск только одного экземпляра Outlook'
-date: 2025-01-12 09:00:00 +0300
+date: 2025-01-14 09:00:00 +0300
 description: Описание решения по запуску только одного экземпляра Outlook на Windows
 categories: [Windows, Решение]
 tags: [Windows, Outlook, fix]
