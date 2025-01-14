@@ -26,7 +26,7 @@ image:
 {: .prompt-info }
 
 ![Desktop View](LocalAuth.jpg){: w="700" h="400" }
-_Алгоритм локальной аутентификации взят с сайта https://interface31.ru/tech_it/2015/03/autentifikaciya-v-sistemah-windows-chast-1-ntlm.html_
+_Алгоритм локальной аутентификации взят с сайта [interface31.ru](https://interface31.ru/tech_it/2015/03/autentifikaciya-v-sistemah-windows-chast-1-ntlm.html)_
 
 Затем служба LSA обращается к диспетчеру учетных записей безопасности (SAM) и сообщает ему имя пользователя. Диспетчер обращается в базу SAM и извлекает оттуда хэш пароля указанного пользователя, сгенерированный при создании учетной записи (или в процессе смены пароля).
 
@@ -55,7 +55,7 @@ _Алгоритм локальной аутентификации взят с с
 **Контроллер домена** — Контроллер домена выполняет процесс аутентификации от имени сервера.<p>
 
 ![Desktop View](NTLMAuth.jpg){: w="700" h="400" }
-_Алгоритм NTLM аутентификации взят с сайта https://techcommunity.microsoft.com/blog/askds/ntlm-vs-kerberos/4120658_
+_Алгоритм NTLM аутентификации взят с сайта [Microsoft Tech Community](https://techcommunity.microsoft.com/blog/askds/ntlm-vs-kerberos/4120658)_
 
 Процесс аутентификации NTLM работает следующим образом:
 1. Пользователь получает доступ к клиентскому компьютеру и предоставляет доменное имя, имя пользователя и пароль.Клиент вычисляет криптографический хэш пароля и отбрасывает фактический пароль. Клиент отправляет имя пользователя на сервер (в виде простого текста).
@@ -149,7 +149,7 @@ NTLM считается менее безопасным по сравнению 
 **Центр распределения ключей (KDC)** — KDC предоставляет услуги по аутентификации и выдачу билетов. AS, TGS и db являются частью KDC.
 
 ![Desktop View](KerberosAuth.jpg){: w="700" h="400" }
-_Алгоритм Kerberos аутентификации взят с сайта https://techcommunity.microsoft.com/blog/askds/ntlm-vs-kerberos/4120658_
+_Алгоритм Kerberos аутентификации взят с сайта [Microsoft Tech Community](https://techcommunity.microsoft.com/blog/askds/ntlm-vs-kerberos/4120658)_
 
 Kerberos работает в несколько этапов:
 1. Вход пользователя на клиентскую машину. Клиент выполняет запрос открытого текста (TGT). Сообщение содержит: (идентификатор пользователя; идентификатор запрашиваемой службы (TGT); сетевой адрес клиента (IP); срок службы проверки)
@@ -218,12 +218,12 @@ Kerberos лучше, чем NTLM, потому что:
 
 Статья подготовлена на основе исходных материалов:
 
-- All about Kerberos & NTLM Authentication on Windows Systems (https://medium.com/@araman99/all-about-kerberos-ntlm-authentication-on-windows-systems-42e793afb020)
-- Difference between Kerberos and NTLM (https://www.geeksforgeeks.org/difference-between-kerberos-and-ntlm/)
-- Explain NTLM vs. Kerberos vs. LDAP (https://cyberdefenders.org/cybersecurity-glossary/ntlm-vs-kerberos/)
-- Kerberos Vs NTLM Authentication Protocol (https://www.manageengine.com/products/active-directory-audit/learn/kerberos-vs-ntlm.html)
-- NTLM vs Kerberos (https://techcommunity.microsoft.com/blog/askds/ntlm-vs-kerberos/4120658)
-- NTLM vs. Kerberos: What’s the Difference? (https://rublon.com/blog/ntlm-vs-kerberos/)
-- NTLM vs Kerberos: Understanding Authentication in Windows/Active Directory (https://infosecwriteups.com/ntlm-vs-kerberos-understanding-authentication-in-windows-active-directory-143925d04c75)
-- Аутентификация в системах Windows. Часть 1 - NTLM (https://interface31.ru/tech_it/2015/03/autentifikaciya-v-sistemah-windows-chast-1-ntlm.html)
-- Аутентификация в системах Windows. Часть 2 - Kerberos (https://interface31.ru/tech_it/2016/07/autentifikaciya-v-sistemah-windows-2-kerberos.html)
+- [All about Kerberos & NTLM Authentication on Windows Systems](https://medium.com/@araman99/all-about-kerberos-ntlm-authentication-on-windows-systems-42e793afb020)
+- [Difference between Kerberos and NTLM](https://www.geeksforgeeks.org/difference-between-kerberos-and-ntlm/)
+- [Explain NTLM vs. Kerberos vs. LDAP](https://cyberdefenders.org/cybersecurity-glossary/ntlm-vs-kerberos/)
+- [Kerberos Vs NTLM Authentication Protocol](https://www.manageengine.com/products/active-directory-audit/learn/kerberos-vs-ntlm.html)
+- [NTLM vs Kerberos](https://techcommunity.microsoft.com/blog/askds/ntlm-vs-kerberos/4120658)
+- [NTLM vs. Kerberos: What’s the Difference?](https://rublon.com/blog/ntlm-vs-kerberos/)
+- [NTLM vs Kerberos: Understanding Authentication in Windows/Active Directory](https://infosecwriteups.com/ntlm-vs-kerberos-understanding-authentication-in-windows-active-directory-143925d04c75)
+- [Аутентификация в системах Windows. Часть 1 - NTLM](https://interface31.ru/tech_it/2015/03/autentifikaciya-v-sistemah-windows-chast-1-ntlm.html)
+- [Аутентификация в системах Windows. Часть 2 - Kerberos](https://interface31.ru/tech_it/2016/07/autentifikaciya-v-sistemah-windows-2-kerberos.html)
