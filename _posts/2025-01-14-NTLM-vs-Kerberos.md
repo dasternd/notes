@@ -1,5 +1,4 @@
 ---
-toc: false
 title: 'NTLM vs Kerberos. Аутентификация в системе Windows.'
 date: 2025-01-14 09:00:00 +0300
 description: Различия между протоколов аутентификация NTLM и Kerberos. Алгоритмы работы протоколов аутентификация в среде Windows
