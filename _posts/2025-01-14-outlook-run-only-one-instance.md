@@ -4,7 +4,7 @@ date: 2025-01-14 09:00:00 +0300
 description: Описание решения по запуску только одного экземпляра Outlook на Windows
 categories: [Windows, Решение]
 tags: [Windows, Outlook, fix]
-img_path: /assets/screenshots/outlook
+img_path: /assets/screenshots/outlook-run-only-one-instance
 image:
   path: outlook.jpg
   width: 100%
