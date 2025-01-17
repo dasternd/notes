@@ -1,7 +1,7 @@
 ---
 title: 'NTLM vs Kerberos. Аутентификация в системе Windows.'
 date: 2025-01-14 09:00:00 +0300
-description: Различия между протоколов аутентификация NTLM и Kerberos. Алгоритмы работы протоколов аутентификация в среде Windows
+description: Различия между протоколами аутентификация NTLM и Kerberos. Алгоритмы работы протоколов аутентификация в среде Windows
 categories: [Безопасность, Статья]
 tags: [Безопасность, NTLM, Kerberos]
 img_path: /assets/screenshots/NTLM-vs-Kerberos
@@ -11,7 +11,7 @@ image:
   height: 100%
 ---
 
-Различия между протоколов аутентификация NTLM и Kerberos. Алгоритмы работы протоколов аутентификация в среде Windows.
+Различия между протоколами аутентификация NTLM и Kerberos.
 
 <hr>
 
